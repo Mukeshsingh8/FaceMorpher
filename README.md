@@ -1,60 +1,9 @@
-# SimSwap: An Efficient Framework For High Fidelity Face Swapping
-## Proceedings of the 28th ACM International Conference on Multimedia
-**The official repository with Pytorch**
+# FaceMorpher
 
-**Our method can realize **arbitrary face swapping** on images and videos with **one single trained model**.**
-
-***We are recruiting full-time engineers. If you are interested, please send an [email](mailto:chen19910528@sjtu.edu.cn?subject=[GitHub]%20Source%20Han%20Sans) to my team. Please refer to the website for specific recruitment conditions: [Requirements](https://join.sjtu.edu.cn/Admin/QsPreview.aspx?qsid=44f5413a90974114b8f5e643177ef32d)***
-
-Training and test code are now available!
-[ <a href="https://colab.research.google.com/github/neuralchen/SimSwap/blob/main/train.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a>](https://colab.research.google.com/github/neuralchen/SimSwap/blob/main/train.ipynb)
-
-We are working with our incoming paper SimSwap++, keeping expecting!
-
-The high resolution version of ***SimSwap-HQ*** is supported!
-
-[![simswaplogo](/docs/img/logo1.png)](https://github.com/neuralchen/SimSwap)
-
-Our paper can be downloaded from [[Arxiv]](https://arxiv.org/pdf/2106.06340v1.pdf) [[ACM DOI]](https://dl.acm.org/doi/10.1145/3394171.3413630)
-
-
-### This project also received support from [SocialBook](https://socialbook.io).
-<!-- [![logo](./simswaplogo/socialbook_logo.2020.357eed90add7705e54a8.svg)](https://socialbook.io) -->
-<img width=30% src="./simswaplogo/socialbook_logo.2020.357eed90add7705e54a8.svg"/>
-
-<!-- [[Google Drive]](https://drive.google.com/file/d/1fcfWOGt1mkBo7F0gXVKitf8GJMAXQxZD/view?usp=sharing) 
-[[Baidu Drive ]](https://pan.baidu.com/s/1-TKFuycRNUKut8hn4IimvA) Password: ```ummt``` -->
 
 ## Attention
 ***This project is for technical and academic use only. Please do not apply it to illegal and unethical scenarios.***
 
-***In the event of violation of the legal and ethical requirements of the user's country or region, this code repository is exempt from liability***
-
-***Please do not ignore the content at the end of this README!***
-
-If you find this project useful, please star it. It is the greatest appreciation of our work.
-
-## Top News <img width=8% src="./docs/img/new.gif"/>
-
-**`2023-09-26`**: We fixed bugs in colab!
-
-**`2023-04-25`**: We fixed the "AttributeError: 'SGD' object has no attribute 'defaults' now" bug. If you have already downloaded **arcface_checkpoint.tar**, please **download it again**. Also, you also need to update the scripts in ```./models/```.
-
-**`2022-04-21`**: For resource limited users, we provide the cropped VGGFace2-224 dataset [[Google Driver] VGGFace2-224 (10.8G)](https://drive.google.com/file/d/19pWvdEHS-CEG6tW3PdxdtZ5QEymVjImc/view?usp=sharing) [[Baidu Driver]](https://pan.baidu.com/s/1OiwLJHVBSYB4AY2vEcfN0A) [Password: lrod].
-
-**`2022-04-20`**: Training scripts are now available. We highly recommend that you guys train the simswap model with our released high quality dataset [VGGFace2-HQ](https://github.com/NNNNAI/VGGFace2-HQ).
-
-**`2021-11-24`**: We have trained a beta version of ***SimSwap-HQ*** on [VGGFace2-HQ](https://github.com/NNNNAI/VGGFace2-HQ) and open sourced the checkpoint of this model (if you think the Simswap 512 is cool, please star our  [VGGFace2-HQ](https://github.com/NNNNAI/VGGFace2-HQ) repo). Please don’t forget to go to [Preparation](./docs/guidance/preparation.md) and [Inference for image or video face swapping](./docs/guidance/usage.md) to check the latest set up.
-
-**`2021-11-23`**: The google drive link of [VGGFace2-HQ](https://github.com/NNNNAI/VGGFace2-HQ) is released. 
-
-**`2021-11-17`**: We released a high resolution face dataset [VGGFace2-HQ](https://github.com/NNNNAI/VGGFace2-HQ) and the method to generate this dataset. This dataset is for research purpose. 
-
-**`2021-08-30`**: Docker has been supported, please refer [here](https://replicate.ai/neuralchen/simswap-image) for details.
-
-**`2021-08-17`**: We have updated the [Preparation](./docs/guidance/preparation.md), The main change is that the gpu version of onnx is now installed by default, Now the time to process a video is greatly reduced.
-
-**`2021-07-19`**: ***Obvious border abruptness has been resolved***. We add the ability to using mask and upgrade the old algorithm for better visual effect, please go to [Inference for image or video face swapping](./docs/guidance/usage.md) for details. Please don’t forget to go to [Preparation](./docs/guidance/preparation.md) to check the latest set up. (Thanks for the help from [@woctezuma](https://github.com/woctezuma) and [@instant-high](https://github.com/instant-high))
 
 ## The first open source high resolution dataset for face swapping!!!
 ## High Resolution Dataset [VGGFace2-HQ](https://github.com/NNNNAI/VGGFace2-HQ)
