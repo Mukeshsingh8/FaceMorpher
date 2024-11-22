@@ -4,13 +4,9 @@
 ## Attention
 ***This project is for technical and academic use only. Please do not apply it to illegal and unethical scenarios.***
 
-
-## The first open source high resolution dataset for face swapping!!!
 ## High Resolution Dataset [VGGFace2-HQ](https://github.com/NNNNAI/VGGFace2-HQ)
 
 [![logo](./docs/img/vggface2_hq_compare.png)](https://github.com/NNNNAI/VGGFace2-HQ)
-
-
 
 
 ## Dependencies
